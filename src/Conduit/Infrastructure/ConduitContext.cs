@@ -13,7 +13,7 @@ namespace Conduit.Infrastructure
             : base(options)
         {
         }
-
+        public string test {get; set;} = "";
         public DbSet<Article> Articles { get; set; } = null!;
         public DbSet<Comment> Comments { get; set; } = null!;
         public DbSet<Person> Persons { get; set; } = null!;
